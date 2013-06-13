@@ -1,5 +1,50 @@
-<div class="hero-unit">
-  <h1>geo-Angular i18</h1>
-  <h3>This is your contry code: {{countryCode}}</h3>
-  <h4>{{mensaje}}</h4>
+<div class="container">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="hero-unit">
+        <h1>{{languagesJSON['homepage.greetings.title']}}</h1>
+        <h3>{{languagesJSON['homepage.greetings.countrycode']}}: {{countryCode}}</h3>    
+      </div>
+    </div>
+  </div>  
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="alert">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>{{languagesJSON['homepage.greetings.info.span']}}</strong>
+        {{languagesJSON['homepage.greetings.info']}}
+      </div>
+      <form class="form-horizontal" action='' method="POST">
+        <fieldset>
+          <div id="legend">
+            <legend class="">{{languagesJSON['homepage.login.title']}}</legend>
+          </div>
+          <div class="control-group">
+            <!-- Username -->
+            <label class="control-label"  for="username">{{languagesJSON['homepage.login.name']}}</label>
+            <div class="controls">
+              <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+       
+          <div class="control-group">
+            <!-- Password-->
+            <label class="control-label" for="password">{{languagesJSON['homepage.login.password']}}</label>
+            <div class="controls">
+              <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+            </div>
+          </div>
+       
+       
+          <div class="control-group">
+            <!-- Button -->
+            <div class="controls">
+              <button class="btn btn-success">{{languagesJSON['homepage.login.enter']}}</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>      
+    </div>
+  </div>
 </div>
+
