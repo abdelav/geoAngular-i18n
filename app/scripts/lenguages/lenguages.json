@@ -1,0 +1,17 @@
+{
+   "spanish": [
+      { "code":"CR"},
+      { "code":"PR"},
+      { "code":"VE"},
+      { "code":"MX"},
+      { "code":"CO"}
+   ],
+   "french": [
+      { "code":"FR"},
+      { "code":"PR"},
+      { "code":"VE"},
+      { "code":"MX"},
+      { "code":"CO"}
+   ]
+
+}
