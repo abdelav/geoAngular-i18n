@@ -26,7 +26,7 @@ angular.module('geoAngularApp').controller('MainCtrl',
           $scope.countryCode = _.last(_.pluck(mapResults, 'short_name'));
           
           lenguagesSwitch.getLenguages($scope.countryCode).then(function(data){            
-            $scope.languagesJSON = data[$scope.countryCode];            
+            $scope.languagesJSON = data[$scope.countryCode];     
           });
         }else{
           $scope.status = "Geocode was not successful: " + status;

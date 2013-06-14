@@ -16,9 +16,26 @@
       </div>
       <form class="form-horizontal" action='' method="POST">
         <fieldset>
-          <div id="legend">
-            <legend class="">{{languagesJSON['homepage.login.title']}}</legend>
-          </div>
+          <div class="row-fluid">
+            <div id="span12">
+              <span class="pull-left"><h5>{{languagesJSON['homepage.login.title']}}</h5></span>
+              <span class="pull-right">
+                <div class="">
+                  <a class="btn dropdown-toggle" data-toggle="dropdown">
+                    Action
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                  <!-- dropdown menu links -->
+                    <li><a href="">esp</a></li>
+                    <li><a href="">asd</a></li>
+                    <li><a href="">ads</a></li>
+                  </ul>
+                </div>
+              </span>
+            </div>
+          </div> 
+          <hr>
           <div class="control-group">
             <!-- Username -->
             <label class="control-label"  for="username">{{languagesJSON['homepage.login.name']}}</label>
