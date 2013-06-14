@@ -5,7 +5,7 @@ angular.module('geoAngularApp')
     return{
       getLenguages : function(lang){
         var deferred = $q.defer();
-        $http.get('scripts/lenguages/lang_'+lang+'.json').success(function(data){
+        $http.get('scripts/i18n/lang_'+lang+'.json').success(function(data){
           deferred.resolve(data);
         }).error(function(){
           deferred.reject();
