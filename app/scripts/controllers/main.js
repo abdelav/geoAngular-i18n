@@ -24,8 +24,8 @@ angular.module('geoAngularApp').controller('MainCtrl',
         if (status == google.maps.GeocoderStatus.OK) {
           mapResults = results[1].address_components;
           $scope.countryCode = _.last(_.pluck(mapResults, 'short_name'));
-          
-          lenguagesSwitch.getLenguages($scope.countryCode).then(function(data){            
+          var lang = $scope.countryCode;
+          lenguagesSwitch.getLenguages($scope.countryCode, lang).then(function(data){            
             $scope.languagesJSON = data[$scope.countryCode];     
           });
         }else{

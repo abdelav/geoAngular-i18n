@@ -3,9 +3,9 @@
 angular.module('geoAngularApp')
   .factory('lenguagesSwitch', ['$http','$q',function($http,$q){
     return{
-      getLenguages : function(){
+      getLenguages : function(lang){
         var deferred = $q.defer();
-        $http.get('scripts/lenguages/lenguages.json').success(function(data){
+        $http.get('scripts/lenguages/lang_'+lang+'.json').success(function(data){
           deferred.resolve(data);
         }).error(function(){
           deferred.reject();
