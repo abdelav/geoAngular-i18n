@@ -1,21 +1,4 @@
 {
-   "spanish": [
-      { "code":"CR"},
-      { "code":"PR"},
-      { "code":"VE"},
-      { "code":"MX"},
-      { "code":"CO"}
-   ],
-   "french": [
-      { "code":"FR"},
-      { "code":"PR"},
-      { "code":"VE"},
-      { "code":"MX"},
-      { "code":"CO"}
-   ],
-   "english":[
-      { "code":"US"}
-   ],
    "CR":{
       "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
       "homepage.greetings.subtitle":"Este es el subtitulo",
@@ -27,6 +10,424 @@
       "homepage.login.password":"Contraseña?",
       "homepage.login.enter":"Loggearse!"
    },
+   "MX":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "ES":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "CO":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "AR":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "PE":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "VE":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "CL":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "CU":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "SE":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "GU":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "EC":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "DO":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "BO":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "SV":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "HN":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "PY":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "NI":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "PR":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "PA":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "UY":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "GQ":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "EH":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   },
+   "FR":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "BE":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "BJ":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "BF":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "CM":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "TD":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "CD":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "CG":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "CI":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   },
+   "DE":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   },
+   "AT":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   },
+   "CH":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   },
+   "LI":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   },
+   "LU":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   },
+   "IT":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"Questo è il sottotitolo",
+      "homepage.greetings.info.span":"Ciao!",
+      "homepage.greetings.info":"Sono un po 'di informazioni a caso",
+      "homepage.greetings.countrycode":"Questo è il codice della nazione",
+      "homepage.login.title":"Login ...",
+      "homepage.login.name":"Qual è il tuo nome?",
+      "homepage.login.password":"Password dimenticata?",
+      "homepage.login.enter":"entrare!"
+   },
+    "SM":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"Questo è il sottotitolo",
+      "homepage.greetings.info.span":"Ciao!",
+      "homepage.greetings.info":"Sono un po 'di informazioni a caso",
+      "homepage.greetings.countrycode":"Questo è il codice della nazione",
+      "homepage.login.title":"Login ...",
+      "homepage.login.name":"Qual è il tuo nome?",
+      "homepage.login.password":"Password dimenticata?",
+      "homepage.login.enter":"entrare!"
+   },
    "US":{
       "homepage.greetings.title":"This is the Google Maps Geoloc Title",
       "homepage.greetings.subtitle":"This is the subtitle",
@@ -37,6 +438,7 @@
       "homepage.login.name":"What's your name?",
       "homepage.login.password":"Password?",
       "homepage.login.enter":"Log In!"
-   }
-
+   }   
 }
+
+
