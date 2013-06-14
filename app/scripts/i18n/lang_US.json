@@ -1,0 +1,13 @@
+{
+  "US":{
+      "homepage.greetings.title":"This is the Google Maps Geoloc Title",
+      "homepage.greetings.subtitle":"This is the subtitle",
+      "homepage.greetings.info.span":"Hello!",
+      "homepage.greetings.info":"I'm some random info",
+      "homepage.greetings.countrycode":"This is your country code",
+      "homepage.login.title":"Login...",
+      "homepage.login.name":"What's your name?",
+      "homepage.login.password":"Password?",
+      "homepage.login.enter":"Log In!"
+   }
+}

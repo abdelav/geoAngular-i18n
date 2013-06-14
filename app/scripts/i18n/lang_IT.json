@@ -1,0 +1,13 @@
+{
+  "IT":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"Questo è il sottotitolo",
+      "homepage.greetings.info.span":"Ciao!",
+      "homepage.greetings.info":"Sono un po 'di informazioni a caso",
+      "homepage.greetings.countrycode":"Questo è il codice della nazione",
+      "homepage.login.title":"Login ...",
+      "homepage.login.name":"Qual è il tuo nome?",
+      "homepage.login.password":"Password dimenticata?",
+      "homepage.login.enter":"entrare!"
+   }
+}

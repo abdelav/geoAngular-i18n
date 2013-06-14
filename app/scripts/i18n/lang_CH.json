@@ -1,0 +1,13 @@
+{
+  "CH":{ 
+      "homepage.greetings.title":"Dies ist die Google Maps Geoloc Titel",
+      "homepage.greetings.subtitle":"Dies ist der Untertitel",
+      "homepage.greetings.info.span":"Hallo!",
+      "homepage.greetings.info":"Ich bin einige zufällige info",
+      "homepage.greetings.countrycode":"Das ist Ihre Landesvorwahl",
+      "homepage.login.title":"Melde dich an ...",
+      "homepage.login.name":"Was ist dein Name?",
+      "homepage.login.password":"Passwort vergessen?",
+      "homepage.login.enter":"Anmelden!"
+   }
+}

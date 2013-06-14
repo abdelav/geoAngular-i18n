@@ -1,0 +1,13 @@
+{
+  "BJ":{ 
+      "homepage.greetings.title":"C'est le Google Maps Geoloc Titre",
+      "homepage.greetings.subtitle":"C'est le sous-titre",
+      "homepage.greetings.info.span":"Bonjour!",
+      "homepage.greetings.info":"Je suis certaine information aléatoire",
+      "homepage.greetings.countrycode":"C'est le code de votre pays",
+      "homepage.login.title":"Connexion ...",
+      "homepage.login.name":"Quel est ton nom?",
+      "homepage.login.password":"Mot de passe?",
+      "homepage.login.enter":"Connecte-toi!"
+   }
+}

@@ -1,0 +1,13 @@
+{
+  "PA":{
+      "homepage.greetings.title":"Este es el titulo de La Localizacion con Google Maps",
+      "homepage.greetings.subtitle":"Este es el subtitulo",
+      "homepage.greetings.info.span":"Hola!",
+      "homepage.greetings.info":"Yo soy una informacion",      
+      "homepage.greetings.countrycode":"Este es el codigo de su pais",
+      "homepage.login.title":"Entrar...",
+      "homepage.login.name":"Cual es su nombre?",
+      "homepage.login.password":"Contraseña?",
+      "homepage.login.enter":"Loggearse!"
+   }
+}
