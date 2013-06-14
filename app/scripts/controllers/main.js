@@ -2,6 +2,10 @@
 
 angular.module('geoAngularApp').controller('MainCtrl',
   ['$scope','lenguagesSwitch', function ($scope,lenguagesSwitch){
+    $scope.countryCode = "US";
+    lenguagesSwitch.getLenguages($scope.countryCode).then(function(data){            
+      $scope.languagesJSON = data[$scope.countryCode];            
+    });
     //ask if the navigator has Geolocations
     if(navigator.geolocation) {
     //this method get the user's position and return an object
@@ -12,7 +16,7 @@ angular.module('geoAngularApp').controller('MainCtrl',
     }
     function getLocation(position){
       var lat = position.coords.latitude 
-         ,lng = position.coords.longitude
+         ,lng = position.coords.longitude 
          ,mapResults = []
          ,latlng = new google.maps.LatLng(lat,lng);
       $scope.geocoder = new google.maps.Geocoder();  
