@@ -6,6 +6,11 @@ angular.module('geoAngularApp').controller('MainCtrl',
     lenguagesSwitch.getLenguages($scope.countryCode).then(function(data){            
       $scope.languagesJSON = data[$scope.countryCode];            
     });
+    $scope.pageLenguages = [
+        "spañol",
+        "ingles",
+        "aleman"
+    ];
     //ask if the navigator has Geolocations
     if(navigator.geolocation) {
     //this method get the user's position and return an object

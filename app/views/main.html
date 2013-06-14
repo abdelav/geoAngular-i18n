@@ -20,16 +20,14 @@
             <div id="span12">
               <span class="pull-left"><h5>{{languagesJSON['homepage.login.title']}}</h5></span>
               <span class="pull-right">
-                <div class="btn-group">
-                  <a class="btn dropdown-toggle" data-toggle="dropdown">
-                    Action
-                    <span class="caret"></span>
+                <div class="dropdown">
+                  <a class="dropdown-toggle">
+                    Click me for a dropdown, yo!
                   </a>
                   <ul class="dropdown-menu">
-                    <!-- dropdown menu links -->
-                    <li><a href="">esp</a></li>
-                    <li><a href="">asd</a></li>
-                    <li><a href="">ads</a></li>
+                    <li ng-repeat="lenguages in pageLenguages">
+                      <a>{{lenguages}}</a>
+                    </li>
                   </ul>
                 </div>
               </span>
