@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('geoAngularApp', [])
+angular.module('geoAngularApp', ['ui.bootstrap'])
   .config(function ($routeProvider,$httpProvider) {
     delete $httpProvider.defaults.headers.common['X-Requested-With'];
     $routeProvider
