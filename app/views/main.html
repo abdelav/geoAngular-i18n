@@ -22,11 +22,11 @@
               <span class="pull-right">
                 <li class="dropdown">
                   <a class="dropdown-toggle">
-                    Click me for a dropdown, yo!
+                    {{languagesJSON['homepage.change.language']}}
                   </a>
                   <ul class="dropdown-menu">
-                    <li ng-repeat="lenguages in pageLenguages ">
-                      <a>{{lenguages}}</a>
+                    <li ng-repeat="lenguage in pageLanguages ">
+                      <a ng-click="changeLang(lenguage)">{{lenguage}}</a>
                     </li>
                   </ul>
                 </li>

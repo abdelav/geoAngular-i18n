@@ -8,6 +8,7 @@
       "homepage.login.title":"Login ...",
       "homepage.login.name":"Qual è il tuo nome?",
       "homepage.login.password":"Password dimenticata?",
-      "homepage.login.enter":"entrare!"
+      "homepage.login.enter":"entrare!",
+      "homepage.change.language":"Lingua"
    }
 }

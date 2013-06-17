@@ -8,6 +8,7 @@
       "homepage.login.title":"Connexion ...",
       "homepage.login.name":"Quel est ton nom?",
       "homepage.login.password":"Mot de passe?",
-      "homepage.login.enter":"Connecte-toi!"
+      "homepage.login.enter":"Connecte-toi!",
+      "homepage.change.language":"Langue"
    }
 }
