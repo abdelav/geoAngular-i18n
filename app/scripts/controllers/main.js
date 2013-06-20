@@ -12,42 +12,20 @@ angular.module('geoAngularApp').controller('MainCtrl',
     });
     //model dropdown languages menu.
     $scope.pageLanguages = [
-      "Español",
-      "English",
-      "Italiano",
-      "Deutsch",
-      "French"
+      {lang:"Español", shortCode:"ES"},
+      {lang:"English", shortCode:"US"},
+      {lang:"Italiano", shortCode:"IT"},
+      {lang:"Deutsch", shortCode:"DE"},
+      {lang:"French", shortCode:"FR"}
     ];
     //this function change the language reciving a parameter from dropdown languages menu.
     //ng-click(language)
-    $scope.changeLang = function(lenguage){
+    $scope.changeLang = function(language){
       //evaluate what is the parameter value.
-      if(lenguage === 'Español'){
-        $scope.countryCode = "ES";
-        lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-          $scope.languagesJSON = data[$scope.countryCode];            
-        }); 
-      }else if(lenguage === 'English'){
-        $scope.countryCode = "US";
-        lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-          $scope.languagesJSON = data[$scope.countryCode];            
-        }); 
-      }else if(lenguage === 'Italiano'){
-        $scope.countryCode = "IT";
-        lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-          $scope.languagesJSON = data[$scope.countryCode];            
-        }); 
-      }else if(lenguage === 'Deutsch'){
-        $scope.countryCode = "DE";
-        lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-          $scope.languagesJSON = data[$scope.countryCode];            
-        }); 
-      }else if(lenguage === 'French'){
-        $scope.countryCode = "FR";
-        lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-          $scope.languagesJSON = data[$scope.countryCode];            
-        }); 
-      }
+      $scope.countryCode = language.shortCode;
+      lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){        
+      $scope.languagesJSON = data[$scope.countryCode];            
+    });
     }
     //ask if the navigator has Geolocations
     if(navigator.geolocation) {
