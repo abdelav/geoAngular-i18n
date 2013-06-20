@@ -62,24 +62,18 @@ angular.module('geoAngularApp').controller('MainCtrl',
       //get the lat and long from position obj.
       var lat = position.coords.latitude 
          ,lng = position.coords.longitude 
-         ,mapResults = []//create an empty obj, will be fill up by the google map json obj.
-         ,latlng = new google.maps.LatLng(lat,lng);//get the lat and long.
-      $scope.geocoder = new google.maps.Geocoder();// instantiate a new google map object.
-      //send the lat and long to get the location info in a obj. 
-      $scope.geocoder.geocode( {'latLng':latlng}, function(results, status){        
-        if(status == google.maps.GeocoderStatus.OK){
-          mapResults = results[1].address_components;//fill the obj with the callback results
-          //get the al the object parameter "short_name" 
-          //and them get the last one that have the country code with lo-Dash.
+         ,mapResults = [];//create an empty obj, will be fill up by the google map json obj.
+      lenguagesSwitch.getCountryCode(lat,lng).then(function(data){
+        if(data.status == "OK"){
+          mapResults = data.results[1].address_components;
           $scope.countryCode = _.last(_.pluck(mapResults, 'short_name'));
-          lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){            
-            $scope.languagesJSON = data[$scope.countryCode];     
+          lenguagesSwitch.getLanguages($scope.countryCode).then(function(data){
+            $scope.languagesJSON = data[$scope.countryCode];
           });
         }else{
-          $scope.status = "Geocode was not successful: " + status;
+          $scope.status = "Geocode was not successful: " + status;  
         }
-        $scope.$apply();
-      }); 
+      });
     }; 
   }
 ]);
